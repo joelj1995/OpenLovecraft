@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XNHPL2", "XNHPL2\XNHPL2.vcxproj", "{38698987-1218-4FE6-A8BF-33BE4578CA5B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lux", "Lux\Lux.vcxproj", "{BE123DD8-0327-4F88-A40C-0D125CBAFF70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,6 +17,10 @@ Global
 		{38698987-1218-4FE6-A8BF-33BE4578CA5B}.Debug|x86.Build.0 = Debug|Win32
 		{38698987-1218-4FE6-A8BF-33BE4578CA5B}.Release|x86.ActiveCfg = Release|Win32
 		{38698987-1218-4FE6-A8BF-33BE4578CA5B}.Release|x86.Build.0 = Release|Win32
+		{BE123DD8-0327-4F88-A40C-0D125CBAFF70}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE123DD8-0327-4F88-A40C-0D125CBAFF70}.Debug|x86.Build.0 = Debug|Win32
+		{BE123DD8-0327-4F88-A40C-0D125CBAFF70}.Release|x86.ActiveCfg = Release|Win32
+		{BE123DD8-0327-4F88-A40C-0D125CBAFF70}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
