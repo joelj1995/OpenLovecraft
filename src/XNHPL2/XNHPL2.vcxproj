@@ -519,6 +519,7 @@
     <ClCompile Include="sources\gui\GuiPopUpColorPicker.cpp" />
     <ClCompile Include="sources\gui\GuiPopUpFilePicker.cpp" />
     <ClCompile Include="sources\gui\GuiPopUpMessageBox.cpp" />
+    <ClCompile Include="sources\gui\GuiPopUpUIKeyboard.cpp" />
     <ClCompile Include="sources\gui\GuiSet.cpp" />
     <ClCompile Include="sources\gui\GuiSkin.cpp" />
     <ClCompile Include="sources\gui\Widget.cpp" />
@@ -552,6 +553,7 @@
     <ClCompile Include="sources\impl\FmodSoundChannel.cpp" />
     <ClCompile Include="sources\impl\FmodSoundData.cpp" />
     <ClCompile Include="sources\impl\FrameBufferGL.cpp" />
+    <ClCompile Include="sources\impl\GamepadSDL.cpp" />
     <ClCompile Include="sources\impl\GamepadSDL2.cpp" />
     <ClCompile Include="sources\impl\GLSLProgram.cpp" />
     <ClCompile Include="sources\impl\GLSLShader.cpp" />
@@ -565,6 +567,7 @@
     <ClCompile Include="sources\impl\MeshLoaderCollada.cpp" />
     <ClCompile Include="sources\impl\MeshLoaderColladaHelpers.cpp" />
     <ClCompile Include="sources\impl\MeshLoaderColladaLoader.cpp" />
+    <ClCompile Include="sources\impl\MeshLoaderFBX.cpp" />
     <ClCompile Include="sources\impl\MeshLoaderMSH.cpp" />
     <ClCompile Include="sources\impl\MouseSDL.cpp" />
     <ClCompile Include="sources\impl\MutexWin32.cpp" />
@@ -591,6 +594,7 @@
     <ClCompile Include="sources\impl\SDLTexture.cpp" />
     <ClCompile Include="sources\impl\SqScript.cpp" />
     <ClCompile Include="sources\impl\ThreadWin32.cpp" />
+    <ClCompile Include="sources\impl\TimerSDL.cpp" />
     <ClCompile Include="sources\impl\tinyXml\tinystr.cpp" />
     <ClCompile Include="sources\impl\tinyXml\tinyxml.cpp" />
     <ClCompile Include="sources\impl\tinyXml\tinyxmlerror.cpp" />
@@ -601,9 +605,13 @@
     <ClCompile Include="sources\impl\VideoStreamTheora.cpp" />
     <ClCompile Include="sources\impl\XmlDocumentTiny.cpp" />
     <ClCompile Include="sources\input\Action.cpp" />
+    <ClCompile Include="sources\input\ActionGamepadAxis.cpp" />
+    <ClCompile Include="sources\input\ActionGamepadButton.cpp" />
+    <ClCompile Include="sources\input\ActionGamepadHat.cpp" />
     <ClCompile Include="sources\input\ActionHaptic.cpp" />
     <ClCompile Include="sources\input\ActionKeyboard.cpp" />
     <ClCompile Include="sources\input\ActionMouseButton.cpp" />
+    <ClCompile Include="sources\input\Gamepad.cpp" />
     <ClCompile Include="sources\input\Input.cpp" />
     <ClCompile Include="sources\input\InputDevice.cpp" />
     <ClCompile Include="sources\input\Keyboard.cpp" />
