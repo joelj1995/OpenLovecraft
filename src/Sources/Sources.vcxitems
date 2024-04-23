@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{de0f1fd9-cde2-40c1-a863-f20e1edb3fb1}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_AudioData.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Buffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Device.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Effect.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_EffectSlot.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Effect_Reverb.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_EFX.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_EFXManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Filter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Helper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Init.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Loaders.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_LoggerObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_OggHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_OggSample.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_OggStream.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Playback.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Sample.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Source.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_SourceManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Stream.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_Types.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenAL\OAL_WAVSample.cpp" />
+  </ItemGroup>
+</Project>
